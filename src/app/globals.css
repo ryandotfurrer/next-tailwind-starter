@@ -60,7 +60,7 @@
   p > code,
   li > code,
   a > code {
-    @apply bg-stone-300 p-1 dark:bg-zinc-700;
+    @apply bg-zinc-300 p-1 dark:bg-zinc-700;
   }
 }
 
