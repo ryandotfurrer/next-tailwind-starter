@@ -24,7 +24,7 @@ export default function NavBar() {
         <li>
           <Link
             className="no-underline hover:underline"
-            href="https://github.com/ryanfurrer"
+            href="https://github.com/ryanfurrer/next-tailwind-starter"
             target="_blank"
           >
             GitHub
