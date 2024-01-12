@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS & Tailwind Starter
 
-## Getting Started
+Edit `src/app/page.tsx` to get started.
 
-First, run the development server:
+## More about this starter
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I created this started solely for myself to have a better and faster jumping off point on new NextJS projects. While it _largely_ un-opinionated, that does not mean there are zero opinions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This starter template _may_ grow a bit with styles and components that match my desired style. You can, of course, change whatever you would like in the appropriate folders. But to begin with this starter features:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Responsive font-sizing
+- Responsive element spacing due to the addition of the .flow class
+- Poppins Google Font added to Tailwinds `fontSans` class
+- Basic light and dark mode
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## The `.flow` Class
 
-## Learn More
+Here is a quick breakdown of the `.flow` class:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Help manage flow and rhythm of elements.
+2. Every direct sibling child element of has margin-block-startadded to it.
+3. Uses 1em as a fallback from clamp syntax.
