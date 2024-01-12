@@ -1,16 +1,18 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer>
       <p>
         <small>
           Made by{" "}
-          <a
+          <Link
             href="https://ryanfurrer.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             Ryan Furrer
-          </a>
+          </Link>
         </small>
       </p>
     </footer>

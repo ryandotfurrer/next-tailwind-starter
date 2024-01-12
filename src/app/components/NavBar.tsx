@@ -1,36 +1,50 @@
 import Image from "next/image";
-import next from "/public/next.svg";
+import logo from "/public/logo.webp";
+import copyToClipboard from "/public/scripts/copyToClipboard.js";
+import Link from "next/link";
+
 export default function NavBar() {
   return (
     <nav>
-      <ul className="flex gap-4">
+      <ul className="flex gap-3 items-center">
         <div id="logo-container" className="mr-auto">
           <li className="justify-start">
-            <a className="no-underline" href="/">
+            <Link className="no-underline" href="/">
               <Image
-                className="dark:invert"
-                src={next}
-                width={100}
+                className="rounded-full"
+                src={logo}
+                width={65}
                 height={100}
                 alt="next logo"
+                priority
               />
-            </a>
+            </Link>
           </li>
         </div>
         <li>
-          <a className="no-underline" href="#">
+          <Link
+            className="no-underline hover:underline"
+            href="https://github.com/ryanfurrer"
+            target="_blank"
+          >
             GitHub
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="no-underline" href="#">
+          <Link
+            className="no-underline hover:underline"
+            href="https://ryanfurrer.com"
+            target="_blank"
+          >
             Portfolio
-          </a>
+          </Link>
         </li>
-        <li>
-          <a className="no-underline" href="#">
-            Contact
-          </a>
+        <li
+          className="cursor-pointer hover:underline"
+          title="ryandotfurrer@gmail.com"
+          onClick={copyToClipboard}
+        >
+          Email Me
         </li>
       </ul>
     </nav>

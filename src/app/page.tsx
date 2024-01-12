@@ -11,7 +11,7 @@ export default function Home() {
       </section>
       <section className="flow mb-16">
         <div className="flow max-w-prose mx-auto">
-          <h2>More about this starter</h2>
+          <h2 className="text-center">More about this starter</h2>
           <p>
             I created this started solely for myself to have a better and faster
             jumping off point on new NextJS projects. While it <em>largely</em>{" "}
@@ -44,7 +44,7 @@ export default function Home() {
       </section>
       <section className="flow mb-16">
         <div className="flow max-w-prose mx-auto">
-          <h2>
+          <h2 className="text-center">
             The <code>.flow</code> Class
           </h2>
           <p>

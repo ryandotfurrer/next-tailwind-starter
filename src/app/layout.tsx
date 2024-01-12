@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="px-4 py-6 mx-auto max-w-screen-lg flow text-pretty bg-stone-100 text-stone-950 dark:bg-stone-900 dark:text-stone-50">
+      <body className="leading-relaxed px-4 py-6 mx-auto max-w-screen-lg flow text-pretty bg-stone-100 text-stone-950 dark:bg-zinc-900 dark:text-zinc-50">
         <NavBar />
         {children}
         <Footer />
