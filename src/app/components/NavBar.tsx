@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logo from "/public/logo.webp";
 import Link from "next/link";
-import copyToClipboard from "/public/scripts/copyToClipboard.js";
+import copyToClipboard from "/public/copyToClipboard";
 
 export default function NavBar() {
   return (
