@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logo from "/public/logo.webp";
 import Link from "next/link";
-import copyToClipboard from "/public/copyToClipboard";
+import copyEmailTitle from "../../../public/copyEmailTitle";
 
 export default function NavBar() {
   return (
@@ -42,7 +42,7 @@ export default function NavBar() {
         <li
           className="cursor-pointer hover:underline"
           title="ryandotfurrer@gmail.com"
-          onClick={copyToClipboard}
+          onClick={copyEmailTitle}
         >
           Email Me
         </li>

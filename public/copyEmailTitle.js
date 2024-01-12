@@ -1,6 +1,6 @@
 "use client";
 
-export default function copyToClipboard(e) {
+export default function copyEmailTitle(e) {
   navigator.clipboard
     .writeText(e.target.getAttribute("title"))
     .then(() => {

@@ -29,7 +29,7 @@
     ".next/types/**/*.ts",
     "pages/**/*",
     "src/**/*",
-    "public/**/*"
+    "public/*"
   ],
   "exclude": ["node_modules"]
 }
