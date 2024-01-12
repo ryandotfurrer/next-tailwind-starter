@@ -25,15 +25,18 @@ export default function Home() {
           </p>
           <ul className="ml-10 list-disc">
             <li>
-              <p>Poppins Google Font</p>
-            </li>
-            <li>
               <p>Responsive font-sizing</p>
             </li>
             <li>
               <p>
                 Responsive element spacing due to the addition of the{" "}
                 <code>.flow</code> class
+              </p>
+            </li>
+            <li>
+              <p>
+                Poppins Google Font added to Tailwinds <code>fontSans</code>{" "}
+                class
               </p>
             </li>
             <li>
