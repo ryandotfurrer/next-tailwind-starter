@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-// import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Next.JS template with Tailwind CSS",
@@ -21,7 +20,6 @@ export default function RootLayout({
         <NavBar />
         {children}
         <Footer />
-        {/* <SpeedInsights /> */}
       </body>
     </html>
   );

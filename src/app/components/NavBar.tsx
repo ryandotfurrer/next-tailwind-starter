@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logo from "/public/logo.webp";
-import copyToClipboard from "/public/scripts/copyToClipboard.js";
 import Link from "next/link";
+import copyToClipboard from "/public/scripts/copyToClipboard.js";
 
 export default function NavBar() {
   return (
@@ -14,7 +14,7 @@ export default function NavBar() {
                 className="rounded-full"
                 src={logo}
                 width={65}
-                height={100}
+                height={65}
                 alt="next logo"
                 priority
               />
