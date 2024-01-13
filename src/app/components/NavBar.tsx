@@ -6,7 +6,7 @@ import copyEmailTitle from "../../../public/copyEmailTitle";
 export default function NavBar() {
   return (
     <nav>
-      <ul className="flex gap-3 items-center">
+      <ul className="flex items-center gap-3">
         <div id="logo-container" className="mr-auto">
           <li className="justify-start">
             <Link className="no-underline" href="/">
@@ -40,7 +40,7 @@ export default function NavBar() {
           </Link>
         </li>
         <li
-          className="cursor-pointer hover:underline"
+          className="cursor-pointer hover:text-neutral-900  hover:underline dark:hover:text-neutral-100"
           title="ryandotfurrer@gmail.com"
           onClick={copyEmailTitle}
         >
