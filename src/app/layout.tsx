@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="leading-relaxed px-4 py-6 mx-auto max-w-screen-lg flow text-pretty bg-zinc-100 text-zinc-950 dark:bg-zinc-900 dark:text-zinc-50">
+      <body className="flow mx-auto max-w-screen-lg text-pretty bg-white px-4 py-6 leading-relaxed text-neutral-500 dark:bg-black">
         <NavBar />
         {children}
         <Footer />

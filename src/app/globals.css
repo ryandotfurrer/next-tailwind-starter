@@ -14,13 +14,13 @@
   h4,
   h5,
   h6 {
-    @apply text-balance font-semibold;
+    @apply text-balance font-semibold text-neutral-900 dark:text-neutral-100;
   }
 
   h1,
   h2,
   h3 {
-    @apply tracking-tight leading-none;
+    @apply leading-none tracking-tight;
   }
 
   h1 {
@@ -48,7 +48,7 @@
   }
 
   a {
-    @apply underline underline-offset-2;
+    @apply underline underline-offset-2 hover:text-neutral-900 dark:hover:text-neutral-100;
   }
 
   h1 > code,
@@ -60,7 +60,7 @@
   p > code,
   li > code,
   a > code {
-    @apply bg-zinc-300 p-1 dark:bg-zinc-700;
+    @apply bg-neutral-300 p-1 text-neutral-900 dark:bg-neutral-700 dark:text-neutral-100;
   }
 }
 
