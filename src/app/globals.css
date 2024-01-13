@@ -51,12 +51,6 @@
     @apply underline underline-offset-2 hover:text-neutral-900 dark:hover:text-neutral-100;
   }
 
-  h1 > code,
-  h2 > code,
-  h3 > code,
-  h4 > code,
-  h5 > code,
-  h6 > code,
   p > code,
   li > code,
   a > code {
