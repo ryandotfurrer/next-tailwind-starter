@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="flow">
       <section className="flow mb-36">
-        <div className="pt-24 flow max-w-prose mx-auto text-center">
+        <div className="flow mx-auto max-w-prose pt-24 text-center">
           <h1>NextJS & Tailwind Starter</h1>
           <p>
             Edit <code>src/app/page.tsx</code> to get started.
@@ -10,7 +10,7 @@ export default function Home() {
         </div>
       </section>
       <section className="flow mb-16">
-        <div className="flow max-w-prose mx-auto">
+        <div className="flow mx-auto max-w-prose">
           <h2 className="text-center">More about this starter</h2>
           <p>
             I created this started solely for myself to have a better and faster
@@ -46,22 +46,21 @@ export default function Home() {
         </div>
       </section>
       <section className="flow mb-16">
-        <div className="flow max-w-prose mx-auto">
+        <div className="flow mx-auto max-w-prose">
           <h2 className="text-center">
             The <code>.flow</code> Class
           </h2>
           <p>
             Here is a quick breakdown of the <code>.flow</code> class:
           </p>
-          <ol className="list-decimal ml-10">
+          <ol className="ml-10 list-decimal">
             <li>
               <p>Help manage flow and rhythm of elements.</p>
             </li>
             <li>
               <p>
                 Every direct sibling child element of has{" "}
-                <code>margin-block-start</code>
-                added to it.
+                <code>margin-block-start</code> added to it.
               </p>
             </li>
             <li>
