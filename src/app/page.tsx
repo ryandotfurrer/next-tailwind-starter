@@ -13,7 +13,7 @@ export default function Home() {
         <div className="flow mx-auto max-w-prose">
           <h2 className="text-center">More about this starter</h2>
           <p>
-            I created this started solely for myself to have a better and faster
+            I created this starter solely for myself to have a better and faster
             jumping off point on new NextJS projects. While it <em>largely</em>{" "}
             un-opinionated, that does not mean there are zero opinions.
           </p>
